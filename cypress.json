@@ -1,0 +1,5 @@
+{
+    "supportFile": "cypress/support/index.ts",
+    "watchForFileChanges":false,
+    "defaultCommandTimeout":10000
+}
