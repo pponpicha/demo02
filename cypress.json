@@ -1,5 +1,11 @@
 {
     "supportFile": "cypress/support/index.ts",
     "watchForFileChanges":false,
-    "defaultCommandTimeout":10000
+    "defaultCommandTimeout":100000,
+    "integrationFolder":"cypress/integration",
+    "testFiles": [
+        "./05-18.ts",
+        "./strAccRecieve.ts",
+        "./storehouse.ts"
+    ]
 }

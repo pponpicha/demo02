@@ -1,0 +1,12 @@
+{ "row" : "1",
+    "storeName": "Sister",
+    "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
+    "originType": {
+      "customs": "สำนักงานศุลกากร/ด่านศุลกากร",
+      "customsName": "1",
+      "fact": "โรงอุตสาหกรรม",
+      "other": "สถานที่อื่นๆ",
+      "otherName": "Gtrower",
+      "otherAddress": "โรงงานอื่น"
+    }
+}

@@ -1,13 +1,14 @@
 { 
     "compilerOptions": {
-      "types": ["cypress", "@testing-library/cypress"],
+      "types": ["cypress", "@testing-library/cypress", "cypress-file-upload"],
       "resolveJsonModule": true,
-      "esModuleInterop": true
+      "esModuleInterop": true,
+      "noImplicitAny": false
     },
     "extends": "../tsconfig.json",
     "include": [
       "../node_modules/cypress",
       "*/*.ts"
-    ]
+, "integration/05-18/05-18offcAP.ts", "integration/05-18/05-18areaAP.ts", "integration/05-18/offcAckExemption.ts", "integration/05-18/offc-origin-ack.ts"    ]
   }
   

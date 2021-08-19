@@ -1,0 +1,71 @@
+{ "exempCode" : "2564/010518-0075",
+  "produceName": "mama",
+  "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
+  "originType": {
+    "customs": "สำนักงานศุลกากร/ด่านศุลกากร",
+    "customsName": "1",
+    "fact": "โรงอุตสาหกรรม",
+    "other": "สถานที่อื่นๆ",
+    "otherName": "Gtrower",
+    "otherAddress": "โรงงานอื่น"
+  },
+  "destination": {
+    "dutyfree": "เขตปลอดอากร",
+    "dutyfreeName": "บริษัท คิง เพาเวอร์ ดิวตี้ฟรี จำกัด",
+    "storehouse": "สถานที่เก็บสินค้า",
+    "storehouseName": "Sister"
+  },
+  "startDate": "27/05/2563",
+  "endDate": "01/07/2564",
+  "transport": {
+    "by": "รถบรรทุก 10 ล้อ",
+    "Route": "เส้นทางการขนส่งไปยัง....Supply",
+    "licenseplate": "123ABC",
+    "driver": "ชื่อคนขับรถ กอน",
+    "dateFrom": "16/08/2564",
+    "dateTo": "25/08/2564"
+  },
+  "considerDayEdit": "",
+  "considerReason": "okii",
+  "assignName": "",
+  "approveReason": "อนุมัติ",
+  "informOrigindate": "",
+  "informOriginnote": "บันทึกเพิ่มเติมการแจ้งให้มาตรวจสอบสินค้าต้นทาง",
+  "informDestdate": "",
+  "informDestnote": "",
+  "browse": {
+    "file0": "/image/announce.pdf",
+    "file1": "/image/Application for the establishment of a warehouse.pdf",
+    "file2": "/image/Controvers.pdf",
+    "file3": "/image/License to produce liquor.pdf",
+    "file4": "/image/Tax benefits.pdf",
+    "file": "/image/What is Duty.pdf",
+    "fileother": "เอกสารอื่นๆ"
+  },
+  "goods" : {
+    "groupCode": "สุราแช่",
+    "goodsName": "เบียร์ คราฟ สิงห์ ดราฟท์",
+    "goodsScale" : "10",
+    "goodsVolume" : "1000"
+  },
+  "goods2": [
+    {
+      "groupCode": "สุราแช่",
+      "goodsName": "เบียร์ คราฟ สิงห์ ดราฟท์",
+      "goodsScale" : "10",
+      "goodsVolume" : "1000"
+    },
+    {
+      "groupCode": "สุราแช่",
+      "goodsName": "เบียร์ คราฟ สิงห์ ไลท์",
+      "goodsScale" : "20",
+      "goodsVolume" : "2000"
+    },
+    {
+      "groupCode": "สุราแช่",
+      "goodsName": "เบียร์ คราฟ ช้างไลท์ 2020",
+      "goodsScale" : "30",
+      "goodsVolume" : "3000"
+    }
+  ]
+}
