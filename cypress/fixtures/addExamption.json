@@ -1,4 +1,4 @@
-{ "exempCode" : "2564/010518-0075",
+{ "exempCode" : "2564/010518-0139",
   "produceName": "mama",
   "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
   "originType": {
@@ -15,19 +15,19 @@
     "storehouse": "สถานที่เก็บสินค้า",
     "storehouseName": "Sister"
   },
-  "startDate": "27/05/2563",
-  "endDate": "01/07/2564",
+  "startDate": "3/09/2564",
+  "endDate": "30/09/2564",
   "transport": {
     "by": "รถบรรทุก 10 ล้อ",
     "Route": "เส้นทางการขนส่งไปยัง....Supply",
     "licenseplate": "123ABC",
     "driver": "ชื่อคนขับรถ กอน",
-    "dateFrom": "16/08/2564",
-    "dateTo": "25/08/2564"
+    "dateFrom": "2/09/2564",
+    "dateTo": "25/09/2564"
   },
   "considerDayEdit": "",
   "considerReason": "okii",
-  "assignName": "",
+  "assignName": "พฤหัส สีส้ม",
   "approveReason": "อนุมัติ",
   "informOrigindate": "",
   "informOriginnote": "บันทึกเพิ่มเติมการแจ้งให้มาตรวจสอบสินค้าต้นทาง",
@@ -39,7 +39,7 @@
     "file2": "/image/Controvers.pdf",
     "file3": "/image/License to produce liquor.pdf",
     "file4": "/image/Tax benefits.pdf",
-    "file": "/image/What is Duty.pdf",
+    "file": "/image/WhatisDuty.pdf",
     "fileother": "เอกสารอื่นๆ"
   },
   "goods" : {

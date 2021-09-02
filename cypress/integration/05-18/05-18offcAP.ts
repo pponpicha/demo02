@@ -8,16 +8,29 @@ export function offcAP_2(docCode:string, docType) {
         cy.visit('http://localhost:4200')
         
         if(docTyp == 'rec'){
-         cy.get('#pills-storehouse-tab').click()           
+         cy.get('#pills-storehouse-tab').click()  
+         cy.contains('2564/010518/1').should('be.visible')
+
         }
 
-        cy.scrollTo(0, 100000) 
-        cy.clickLink(docCode)
+        if(docTyp == 'str'){
+            cy.loginuserType('offcDes')
+            cy.visit('http://localhost:4200')
+            cy.get('#pills-contact-tab').click()
+            cy.contains('STR').should('be.visible')
+
+        }
+        
+        cy.contains(docCode).scrollIntoView()
+        // cy.scrollTo(0, 100000) 
+        cy.contains(docCode).click({force : true})
+        // cy.clickLink(docCode)
         cy.get('[for="correct"]').click()
         cy.get('[id="inputReason"]').type('ผลการพิจารณา จากเจ้าพนักงานสรรพสามิต')
-        cy.get('.btn-success').click()
-        cy.get('.swal2-popup').should('be.visible')
-        cy.get('button').contains('ยืนยัน').click();  
+        cy.contains('บันทึกผลการพิจารณา').click()
+        cy.contains('ยืนยันการบันทึกผลการพิจารณา').should('be.visible')
+        cy.get('.swal2-confirm').should('be.visible').click();  
+        
     })
 
    
