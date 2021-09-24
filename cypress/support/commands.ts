@@ -81,23 +81,32 @@ Cypress.Commands.add('loginuserType', (userType:string, options = {}) => {
       password: 'password'
     },
     cust: {
-      username: 'df-testfact01@gmail.com',
+      // username: 'df.testfact01@gmail.com',
+      username: 'df.testfact02@gmail.com',
+      // username: 'dutyfreetest01@gmail.com',
       password: 'password'
     },
     offc: {
-      username: 'df-testoffc01@gmail.com',
+      // username: 'df.testoffc01@gmail.com',
+      username: 'df-testoffc07@gmail.com',      
       password: 'password'
     },
     offcDes: {
-      username: 'df-testoffc04@gmail.com',
+      username: 'df.testoffc04@gmail.com',
+      password: 'password'
+    },
+    offcDuty: {
+      username: 'df.testoffc02@gmail.com',
       password: 'password'
     },
     area: {
-      username: 'df-testarea01@gmail.com',
+      // username: 'df.testarea01@gmail.com',
+      username: 'df-testarea08@gmail.com',
+
       password: 'password'
     },
     areaDes: {
-      username: 'df-testarea04@gmail.com',
+      username: 'df.testarea04@gmail.com',
       password: 'password'
     },
   }

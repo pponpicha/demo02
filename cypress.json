@@ -5,7 +5,8 @@
     "integrationFolder":"cypress/integration",
     "testFiles": [
         "./05-18.ts",
-        "./strAccRecieve.ts"
-     
+        "./strAccRecieve.ts",
+        "./strAccExp.ts"
+        
     ]
 }

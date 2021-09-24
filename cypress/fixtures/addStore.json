@@ -1,13 +1,31 @@
 { "row" : "1",
-    "strNo" : "2564/01STR-0037" ,
-    "strName": "Sister",
+    "strNo" : "2564/01STR-0004" ,
+    "strName": "อาคารหนุสรณ์",
+    "strOther": "อื่น ๆ",
+    "otherName": "คลังสวนหลวง",
+
     "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
     "originType": {
       "customs": "สำนักงานศุลกากร/ด่านศุลกากร",
       "customsName": "1",
       "fact": "โรงอุตสาหกรรม",
       "other": "สถานที่อื่นๆ",
-      "otherName": "Gtrower",
+      "otherName": "คลังสวนหลวง",
       "otherAddress": "โรงงานอื่น"
-    }
+    },
+    "building" : "การงาน2",
+    "houseNo" : "285/4" ,
+    "villageNo" : "2" ,
+    "lane" : "4/12" ,
+    "road" : "ราชประสงค์" ,
+    "province" : "กรุงเทพมหานคร" ,
+    "district" : "ราชเทวี" ,
+    "subDistrict" : "ถนนเพชรบุรี" ,
+    "zipCode" : "10400",
+    "titleName" : "พ.อ.",
+    "firstName" : "สมวาน",
+    "lastName" : "มีชัย"
+
+
+   
 }

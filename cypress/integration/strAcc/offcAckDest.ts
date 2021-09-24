@@ -2,8 +2,9 @@
 import data from '../../fixtures/addExamption.json'
 import 'cypress-file-upload';
 
-export function offcinformOrigin_4(docCode: string, docType) {
+export function offcinformDest_4(docCode: string, docType,userType) {
     let docTyp = docType
+    // let userType = user
 
     it("แจ้ง วัน/เดือน/ปี ที่จะให้เข้ามาตรวจสอบ", () => {
         cy.loginuserType('cust')
@@ -13,7 +14,7 @@ export function offcinformOrigin_4(docCode: string, docType) {
             cy.loginuserType('cust')
             cy.visit('http://localhost:4200')
             cy.get('#pills-storehouse-tab').click()
-            cy.contains('2564/010518').should('be.visible')
+            cy.contains('2564/010518/').should('be.visible')
         }
 
         // cy.scrollTo(0, 100000) 

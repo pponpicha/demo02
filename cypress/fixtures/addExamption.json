@@ -1,6 +1,8 @@
-{ "exempCode" : "2564/010518-0139",
+{ "exempCode" : "2564/020518-0010",
   "produceName": "mama",
-  "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
+  "importName": "01055501127601001 : บริษัท สิงห์ เบเวอเรช จำกัด",
+  "importName2": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
+
   "originType": {
     "customs": "สำนักงานศุลกากร/ด่านศุลกากร",
     "customsName": "1",
@@ -13,21 +15,23 @@
     "dutyfree": "เขตปลอดอากร",
     "dutyfreeName": "บริษัท คิง เพาเวอร์ ดิวตี้ฟรี จำกัด",
     "storehouse": "สถานที่เก็บสินค้า",
-    "storehouseName": "Sister"
+    "storehouseName": "สถานที่เก็บสินค้า ลาดกระบัง"
   },
-  "startDate": "3/09/2564",
-  "endDate": "30/09/2564",
+  "startDate": "23/09/2564",
+  "endDate": "9/10/2564",
   "transport": {
     "by": "รถบรรทุก 10 ล้อ",
     "Route": "เส้นทางการขนส่งไปยัง....Supply",
-    "licenseplate": "123ABC",
-    "driver": "ชื่อคนขับรถ กอน",
-    "dateFrom": "2/09/2564",
-    "dateTo": "25/09/2564"
+    "licenseplate": "กจ 2556",
+    "driver": "นายกอน มีสุข",
+    "dateFrom": "23/09/2564",
+    "dateTo": "25/10/2564"
   },
   "considerDayEdit": "",
   "considerReason": "okii",
   "assignName": "พฤหัส สีส้ม",
+  "assignNameStr": "ซิสค่ะ สีม่วงครามน้ำเงิน",
+
   "approveReason": "อนุมัติ",
   "informOrigindate": "",
   "informOriginnote": "บันทึกเพิ่มเติมการแจ้งให้มาตรวจสอบสินค้าต้นทาง",
@@ -44,11 +48,16 @@
   },
   "goods" : {
     "groupCode": "สุราแช่",
-    "goodsName": "เบียร์ คราฟ สิงห์ ดราฟท์",
+    "goodsName": "39.21",
     "goodsScale" : "10",
-    "goodsVolume" : "1000"
+    "goodsVolume" : "4000",
+    "goodsVolumeDest" : "3999",
+    "goodsVolumeExp" : "2000",
+    "goodsVolumeExpDest" : "1999"
+
   },
-  "goods2": [
+  
+  "goodsGroup": [
     {
       "groupCode": "สุราแช่",
       "goodsName": "เบียร์ คราฟ สิงห์ ดราฟท์",
