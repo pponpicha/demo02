@@ -8,7 +8,16 @@
     "extends": "../tsconfig.json",
     "include": [
       "../node_modules/cypress",
-      "*/*.ts"
-, "integration/05-18/05-18offcAP.ts", "integration/05-18/05-18areaAP.ts", "integration/05-18/offcAckExemption.ts", "integration/05-18/offc-origin-ack.ts", "integration/05-18/offc-inform-dest.ts", "integration/strAcc/addFormRec.ts", "integration/strAcc/addFormExp.ts", "integration/strAcc/offc-dest-ack.ts", "integration/strAcc/offcAckDest.ts"    ]
+      "*/*.ts",
+      "integration/05-18/05-18offcAP.ts",
+      "integration/05-18/05-18areaAP.ts",
+      "integration/05-18/offcAckExemption.ts",
+      "integration/05-18/offc-origin-ack.ts",
+      "integration/05-18/offc-inform-dest.ts",
+      "integration/strAcc/addFormRec.ts",
+      "integration/strAcc/addFormExp.ts",
+      "integration/strAcc/offc-dest-ack.ts",
+      "integration/strAcc/offcAckDest.ts"
+    ]
   }
   

@@ -1,7 +1,9 @@
-{ "exempCode" : "2564/020518-0010",
+{ "exempCode" : "2564/010518-0063",
   "produceName": "mama",
-  "importName": "01055501127601001 : บริษัท สิงห์ เบเวอเรช จำกัด",
+  "importName": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
   "importName2": "01355410024851001 : บริษัท สุราบางยี่ขัน จำกัด",
+  "importName3": "01055501127601001 : บริษัท สิงห์ เบเวอเรช จำกัด",
+  "importName4": "01055420732383001 : บริษัท เจที อินเตอร์เนชั่นแนล (ไทยแลนด์) จำกัด",
 
   "originType": {
     "customs": "สำนักงานศุลกากร/ด่านศุลกากร",
@@ -15,16 +17,16 @@
     "dutyfree": "เขตปลอดอากร",
     "dutyfreeName": "บริษัท คิง เพาเวอร์ ดิวตี้ฟรี จำกัด",
     "storehouse": "สถานที่เก็บสินค้า",
-    "storehouseName": "สถานที่เก็บสินค้า ลาดกระบัง"
+    "storehouseName": "คลังหลังสวน"
   },
-  "startDate": "23/09/2564",
+  "startDate": "28/09/2564",
   "endDate": "9/10/2564",
   "transport": {
     "by": "รถบรรทุก 10 ล้อ",
     "Route": "เส้นทางการขนส่งไปยัง....Supply",
     "licenseplate": "กจ 2556",
     "driver": "นายกอน มีสุข",
-    "dateFrom": "23/09/2564",
+    "dateFrom": "28/09/2564",
     "dateTo": "25/10/2564"
   },
   "considerDayEdit": "",
@@ -48,10 +50,10 @@
   },
   "goods" : {
     "groupCode": "สุราแช่",
-    "goodsName": "39.21",
+    "goodsName": "65.00",
     "goodsScale" : "10",
-    "goodsVolume" : "4000",
-    "goodsVolumeDest" : "3999",
+    "goodsVolume" : "5000",
+    "goodsVolumeDest" : "5000",
     "goodsVolumeExp" : "2000",
     "goodsVolumeExpDest" : "1999"
 

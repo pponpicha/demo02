@@ -15,6 +15,8 @@ declare global {
       restoreLocalStorage(): Chainable<void>
       clickLink(text:string):Chainable<void>
       clickbtn():Chainable<void>
+      clickSend():Chainable<void>
+      clickConfirm():Chainable<void>
     }
   }
 }
@@ -32,46 +34,6 @@ Cypress.Commands.add('metaTag', metaTag)
 
 let token: string;
 
-
-Cypress.Commands.add('login', (userType:string, options = {}) => {
-  
-  
-  const  types = 
-    {
-    admin: {
-      username: 'admin',
-      password: 'password'
-    },
-    user: {
-      username: 'admin',
-      password: 'password'
-    },
-  }
- 
-
-  // grab the user 
-      // const user:string = types[userType]
-  
-  cy.request({
-    method: 'POST',
-    url: 'http://localhost:8080/dutyfree-api/api/auth/login',
-    form: true,
-    body: 
-    // user,
-    
-    {
-      username: 'admin',
-      password: 'password'
-    }
-  })
-  .then((res) => {
-    // let bookResponse = JSON.parse(JSON.stringify(res));
-    // cy.log(bookResponse.body.token)
-    token = res.body.token;
-    window.localStorage.setItem('ng-dutyfree-token', token)
-  })
-})
-
 Cypress.Commands.add('loginuserType', (userType:string, options = {}) => {
     
   let mapUser: { [key: string]: any }  = //A map of string -> anything you like
@@ -81,14 +43,17 @@ Cypress.Commands.add('loginuserType', (userType:string, options = {}) => {
       password: 'password'
     },
     cust: {
-      // username: 'df.testfact01@gmail.com',
-      username: 'df.testfact02@gmail.com',
-      // username: 'dutyfreetest01@gmail.com',
+      username: 'df.testfact01@gmail.com',
+      // username: 'df.testfact02@gmail.com',
+      // username: 'JTIner100300@gmail.com',
+      // username: 'dutyfree100300@gmail.com',
       password: 'password'
     },
     offc: {
-      // username: 'df.testoffc01@gmail.com',
-      username: 'df-testoffc07@gmail.com',      
+      username: 'df.testoffc01@gmail.com',
+      // username: 'df-testoffc07@gmail.com',   
+      // username: 'offc100300@gmail.com',
+
       password: 'password'
     },
     offcDes: {
@@ -100,8 +65,9 @@ Cypress.Commands.add('loginuserType', (userType:string, options = {}) => {
       password: 'password'
     },
     area: {
-      // username: 'df.testarea01@gmail.com',
-      username: 'df-testarea08@gmail.com',
+      username: 'df.testarea01@gmail.com',
+      // username: 'df-testarea08@gmail.com',
+      // username: 'area100300@gmail.com',
 
       password: 'password'
     },
@@ -116,7 +82,7 @@ Cypress.Commands.add('loginuserType', (userType:string, options = {}) => {
   
   cy.request({
     method: 'POST',
-    url: 'http://localhost:8080/dutyfree-api/api/auth/login',
+    url: 'http://localhost:9000/dutyfree-api/api/auth/login',
     form: true,
     body: user,    
   })
@@ -138,4 +104,14 @@ Cypress.Commands.add("restoreLocalStorage", () => {
 
 Cypress.Commands.add('clickLink', (text:string) => {
   cy.get('a').contains(text).click()
+})
+
+Cypress.Commands.add('clickSend', () => {
+  cy.get('[class="btn btn-success ng-star-inserted"]').click();
+  cy.get('.swal2-confirm').click();  
+})
+
+Cypress.Commands.add('clickConfirm', () => {  
+  cy.get('.swal2-popup').should('be.visible')
+  cy.contains('OK').click(); 
 })

@@ -13,7 +13,7 @@ import { offcdestAck_5 } from './strAcc/offc-dest-ack'
 describe("create 05-18/1 Exp", () => {
 
     // CREAT 08-18/1 EXP
-    createAccExp();
+    // createAccExp();
 
     // // ส่งแก้ไข : edit , ไม่อนุมัติ : disAP
     let offAP = '1';
@@ -29,11 +29,11 @@ describe("create 05-18/1 Exp", () => {
             offcinformOrigin_4(strAcc.strExpAccCode, 'strAcc');
 
             // OFFC do 05-18 untill status ENDORSE
-            offcdestAck_5(strAcc.strExpAccCode, 'strAcc', 'offcDes');
+            // offcdestAck_5(strAcc.strExpAccCode, 'strAcc', 'offcDes');
 
-            // แจ้งปลายทาง DEST 
-            offcinformOrigin_4(strAcc.strExpAccCode, 'strAcc');
-            offcdestAck_5(strAcc.strExpAccCode, 'strAcc', 'offcDuty');
+            // // แจ้งปลายทาง DEST 
+            // offcinformOrigin_4(strAcc.strExpAccCode, 'strAcc');
+            // offcdestAck_5(strAcc.strExpAccCode, 'strAcc', 'offcDuty');
         }
     }
 })

@@ -11,7 +11,7 @@ import { offcOriginAck_5 } from './05-18/offc-origin-ack'
 
 describe("create 05-18/1 recieve", () => {
 
-    createAccRec();
+    // createAccRec();
     // // ส่งแก้ไข : edit , ไม่อนุมัติ : disAP
     let offAP = '1'
     let areaAP = '1'
@@ -24,7 +24,7 @@ describe("create 05-18/1 recieve", () => {
             offcinformOrigin_4(data.exempCode, '');
 
             // // OFFC do 05-18 untill status ENDORSE
-            offcOriginAck_5(data.exempCode, '', 'offcDes');
+            // offcOriginAck_5(data.exempCode, '', 'offcDes');
         }
     }
 })

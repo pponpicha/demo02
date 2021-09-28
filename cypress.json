@@ -4,7 +4,7 @@
     "defaultCommandTimeout":100000,
     "integrationFolder":"cypress/integration",
     "testFiles": [
-        "./05-18.ts",
+        "./exemption.ts",
         "./strAccRecieve.ts",
         "./strAccExp.ts"
         
